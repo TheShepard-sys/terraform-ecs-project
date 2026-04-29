@@ -6,6 +6,7 @@ crash.log
 
 # Terraform variable files (may contain secrets)
 *.tfvars
+!environments/dev/terraform.tfvars
 *.tfvars.json
 
 # Sensitive files
